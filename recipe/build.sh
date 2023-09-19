@@ -7,7 +7,7 @@ cd ${SRC_DIR}
 
 mkdir -p ${BUILD_DIR}
 
-cmake -S osmium-tool \
+cmake ${CMAKE_ARGS} -S osmium-tool \
  -B ${BUILD_DIR} \
  -G "Ninja" \
  -D CMAKE_BUILD_TYPE=Release \
