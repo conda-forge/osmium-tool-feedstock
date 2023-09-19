@@ -1,11 +1,11 @@
-About osmium-tool
-=================
+About osmium-tool-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/osmium-tool-feedstock/blob/main/LICENSE.txt)
 
 Home: https://osmcode.org/osmium-tool/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/osmium-tool-feedstock/blob/main/LICENSE.txt)
 
 Summary: Osmium Command Line Tool.
 
@@ -50,6 +50,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16007&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/osmium-tool-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16007&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/osmium-tool-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
