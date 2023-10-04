@@ -21,7 +21,7 @@ source:
 
 
 build:
-  number: 1
+  number: 2
 
 
 requirements:
@@ -31,14 +31,13 @@ requirements:
     - ninja
 
   host:
-    - boost-cpp
+    - libboost-devel
     - expat
     - lz4-c
     - bzip2
     - zlib
 
   run:
-    - boost-cpp
     - lz4-c
     - bzip2
     - libzlib
