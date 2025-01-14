@@ -1,4 +1,4 @@
-{% set version = "1.16.0" %}
+{% set version = "1.17.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://github.com/osmcode/osmium-tool/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: f98454d9f901be42e0b6751aef40106d734887ee35190c224b174c2f27ef1c0f
+    sha256: a7c8e5ee108258a3867c21e80d8bf50ee5b7784c56a12523750d882814e3d6df
     folder: osmium-tool
 
   - url: https://github.com/osmcode/libosmium/archive/refs/tags/v2.17.1.tar.gz
@@ -21,7 +21,7 @@ source:
 
 
 build:
-  number: 5
+  number: 0
 
 
 requirements:
