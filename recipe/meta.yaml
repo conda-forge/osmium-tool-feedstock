@@ -11,12 +11,12 @@ source:
     sha256: a7c8e5ee108258a3867c21e80d8bf50ee5b7784c56a12523750d882814e3d6df
     folder: osmium-tool
 
-  - url: https://github.com/osmcode/libosmium/archive/refs/tags/v2.17.1.tar.gz
-    sha256: 6faa7952aa1210dcd9ae4ef83e7653a4f8eb880e6a4e5b37f87a5d4835f6327b
+  - url: https://github.com/osmcode/libosmium/archive/refs/tags/v2.21.0.tar.gz
+    sha256: 5a222e555865f742102d2802a7ad7ef91d6e1c8944c097c70a924214e079c858
     folder: libosmium
 
-  - url: https://github.com/mapbox/protozero/archive/refs/tags/v1.7.0.tar.gz
-    sha256: beffbdfab060854fd770178a8db9c028b5b6ee4a059a2fed82c46390a85f3f31
+  - url: https://github.com/mapbox/protozero/archive/refs/tags/v1.8.0.tar.gz
+    sha256: d95ca543fc42bd22b8c4bce1e6d691ce1711eda4b4910f7863449e6517fade6b
     folder: protozero
 
 
@@ -37,6 +37,7 @@ requirements:
     - lz4-c
     - bzip2
     - zlib
+    - nlohmann_json
 
   run:
     - lz4-c
