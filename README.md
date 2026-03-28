@@ -20,7 +20,6 @@ OSM files from one format into another, merge and apply change files to an OSM
 file, create geographical extracts from OSM files, filter OSM files by tags,
 and much more...
 
-
 Current build status
 ====================
 
@@ -197,4 +196,5 @@ Feedstock Maintainers
 
 * [@OliverSchmitz](https://github.com/OliverSchmitz/)
 * [@kordejong](https://github.com/kordejong/)
+* [@travishathaway](https://github.com/travishathaway/)
 
