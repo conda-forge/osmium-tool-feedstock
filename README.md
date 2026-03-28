@@ -20,7 +20,6 @@ OSM files from one format into another, merge and apply change files to an OSM
 file, create geographical extracts from OSM files, filter OSM files by tags,
 and much more...
 
-
 Current build status
 ====================
 
@@ -50,13 +49,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16007&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/osmium-tool-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16007&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/osmium-tool-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -197,4 +189,5 @@ Feedstock Maintainers
 
 * [@OliverSchmitz](https://github.com/OliverSchmitz/)
 * [@kordejong](https://github.com/kordejong/)
+* [@travishathaway](https://github.com/travishathaway/)
 
