@@ -3,6 +3,8 @@ setlocal EnableDelayedExpansion
 
 set BUILD_DIR=build
 
+cd %SRC_DIR%
+
 mkdir %BUILD_DIR%
 
 if exist "%SRC_DIR%\contrib" rd /s /q "%SRC_DIR%\contrib"
