@@ -3,9 +3,13 @@ setlocal EnableDelayedExpansion
 
 set BUILD_DIR=build
 
+cd %SRC_DIR%
+
 mkdir %BUILD_DIR%
 
-cmake -S osmium-tool ^
+if exist "%SRC_DIR%\contrib" rd /s /q "%SRC_DIR%\contrib"
+
+cmake %CMAKE_ARGS% -S . ^
  -B %BUILD_DIR% ^
  -G "Ninja" ^
  -D CMAKE_BUILD_TYPE=Release ^
