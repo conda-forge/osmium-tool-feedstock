@@ -10,16 +10,9 @@ package:
 source:
   - url: https://github.com/osmcode/osmium-tool/archive/refs/tags/v${{ version }}.tar.gz
     sha256: 192713eef894735cf2d0dbeed3f8def67c067198e553de01d4a1f14417a64019
-    target_directory: osmium-tool
-  - url: https://github.com/osmcode/libosmium/archive/refs/tags/v2.21.0.tar.gz
-    sha256: 5a222e555865f742102d2802a7ad7ef91d6e1c8944c097c70a924214e079c858
-    target_directory: libosmium
-  - url: https://github.com/mapbox/protozero/archive/refs/tags/v1.8.0.tar.gz
-    sha256: d95ca543fc42bd22b8c4bce1e6d691ce1711eda4b4910f7863449e6517fade6b
-    target_directory: protozero
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -34,6 +27,8 @@ requirements:
     - bzip2
     - zlib
     - nlohmann_json
+    - libosmium
+    - protozero
   run:
     - lz4-c
     - bzip2
@@ -45,13 +40,12 @@ tests:
         then: test -f $PREFIX/bin/osmium
       - if: win
         then: if not exist %LIBRARY_PREFIX%\\bin\\osmium.exe exit 1
+      - osmium --help
 
 about:
   license: GPL-3.0-only
   license_file:
-    - osmium-tool/LICENSE.txt
-    - libosmium/LICENSE
-    - protozero/LICENSE.md
+    - LICENSE.txt
   summary: Osmium Command Line Tool.
   description: |
     Osmium is a versatile command line tool for working with OpenStreetMap data.
@@ -67,4 +61,4 @@ about:
 extra:
   recipe-maintainers:
     - OliverSchmitz
-    - kordejong
+    - travishathaway
