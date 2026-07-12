@@ -188,5 +188,5 @@ Feedstock Maintainers
 =====================
 
 * [@OliverSchmitz](https://github.com/OliverSchmitz/)
-* [@kordejong](https://github.com/kordejong/)
+* [@travishathaway](https://github.com/travishathaway/)
 
